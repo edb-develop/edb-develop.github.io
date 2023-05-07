@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styling.css">
+</head>
+  <body>
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo-CAC.webp" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Conferencia Buenos Aires
+          </a>
+
+          <!--- Navbar 2 -->
+          <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-left">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">La conferencia</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Los oradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Lugar y fecha</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Conviertete en orador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Comprar tickets</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+        </div>
+      </nav>
+    
+      <!-- Sección 1 Imagen -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Museo del Agua.jpg" class="d-block w-100" alt="400px">
+            <div class="carousel-caption d-none d-md-block" >
+              <h5>Conferencia Buenos Aires</h5>
+              <p>LLega por primera vez a la Argentina, un evento para compartir con nuestra comunidad</p>
+              <p>el conocimiento y la experiencia de los expertos que están creando el futuro de Internet.</p>
+              <button type="button" class="btn btn-success">Comprar Tickets</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div id="c1">
+        <p>
+        Conoce a los
+        </p>
+    <h3>Oradores</h3>
+    </div>
+
+      <!-- Tarjetas Oradores -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="Steve_Jobs.jpg" class="card-img-top" alt="60px">
+            <div class="card-body">
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <button type="button" class="btn btn-warning">JavaScript</button>
+                    </div>
+                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                      <button type="button" class="btn btn-primary">React</button>
+                    </div>
+                  </div>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde dolorum sit minus culpa voluptatibus quis recusandae in, neque, ipsam saepe libero, inventore dignissimos. Nam inventore fuga asperiores voluptatum magni dolores.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="billgates.jpg" class="card-img-top" alt="60px">
+            <div class="card-body">
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <button type="button" class="btn btn-warning">JavaScript</button>
+                    </div>
+                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                      <button type="button" class="btn btn-primary">React</button>
+                    </div>
+                  </div>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa officiis eum illum exercitationem maxime, eos nihil quam nesciunt molestiae asperiores cupiditate perferendis, explicabo quas error! Tempore odio ipsa libero!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Ada.jpg" class="card-img-top" alt="60px">
+            <div class="card-body">
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                      <button type="button" class="btn btn-warning">JavaScript</button>
+                    </div>
+                    <div class="btn-group me-2" role="group" aria-label="Second group">
+                      <button type="button" class="btn btn-primary">React</button>
+                    </div>
+                  </div>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus debitis corrupti autem ratione nulla quam aperiam! Odio reiciendis inventore velit praesentium mollitia repudiandae eius suscipit nisi, cupiditate facere, corrupti porro?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-4 text-bg-dark" style="max-height: 1200px;">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <img src="Buenos-aires.jpg" class="img-fluid rounded-start" alt="1200px">
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title">Buenos Aires - Octubre</h5>
+              <p class="card-text">Es la ciudad más visitada de América del Sur. El tejido urbano se asemeja a un abanico que limita al sur, oeste y norte con la provincia de Buenos Aires y al este con el río. Oficialmente la ciudad se encuentra dividida en 48 barrios que derivan, los más antiguos, de las parroquias establecidas en el siglo XIX.</p>
+              <button type="button" class="btn btn-outline-light">Conocer mas ...</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="c1">
+        <p>
+        Conviertete en
+        </p>
+    <h3>Orador</h3>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col-md-4">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Carlos">
+      </div>
+      <div class="col-md-4">
+        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Perez">
+      </div>
+    </div>
+
+    <div class="col-md-8">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
