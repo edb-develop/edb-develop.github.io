@@ -40,27 +40,32 @@
               </div>
             </div>
           </nav>
-
-
         </div>
       </nav>
     
       <!-- Sección 1 Imagen -->
+
       <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+        
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="Museo del Agua.jpg" class="d-block w-100" alt="400px">
-            <div class="carousel-caption d-none d-md-block" >
-              <h5>Conferencia Buenos Aires</h5>
-              <p>LLega por primera vez a la Argentina, un evento para compartir con nuestra comunidad</p>
-              <p>el conocimiento y la experiencia de los expertos que están creando el futuro de Internet.</p>
-              <button type="button" class="btn btn-success">Comprar Tickets</button>
-            </div>
+
+            
+              <div class="carousel-caption row-cols-md-12" >
+                <h5>Conferencia Buenos Aires</h5>
+                <p>LLega por primera vez a la Argentina, un evento para compartir con nuestra comunidad</p>
+                <p>el conocimiento y la experiencia de los expertos que están creando el futuro de Internet.</p>
+                <button type="button" class="btn btn-success col-md-2">Comprar Tickets</button>
+
+              </div>
+            
+            
+
+            
+            
+            
+
           </div>
         </div>
       </div>
@@ -69,23 +74,18 @@
         <p>
         Conoce a los
         </p>
-    <h3>Oradores</h3>
+        <h3>Oradores</h3>
     </div>
 
       <!-- Tarjetas Oradores -->
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+      <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
         <div class="col">
           <div class="card">
-            <img src="Steve_Jobs.jpg" class="card-img-top" alt="60px">
+            <img src="Steve_Jobs.jpg" class="card-img-top">
             <div class="card-body">
-                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                    <div class="btn-group me-2" role="group" aria-label="First group">
-                      <button type="button" class="btn btn-warning">JavaScript</button>
-                    </div>
-                    <div class="btn-group me-2" role="group" aria-label="Second group">
-                      <button type="button" class="btn btn-primary">React</button>
-                    </div>
-                  </div>
+                <span class="badge text-bg-warning">JavaScript</span>
+                <span class="badge text-bg-primary">React</span>
               <h5 class="card-title">Steve Jobs</h5>
               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde dolorum sit minus culpa voluptatibus quis recusandae in, neque, ipsam saepe libero, inventore dignissimos. Nam inventore fuga asperiores voluptatum magni dolores.</p>
             </div>
@@ -93,16 +93,10 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="billgates.jpg" class="card-img-top" alt="60px">
+            <img src="billgates.jpg" class="card-img-top">
             <div class="card-body">
-                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                    <div class="btn-group me-2" role="group" aria-label="First group">
-                      <button type="button" class="btn btn-warning">JavaScript</button>
-                    </div>
-                    <div class="btn-group me-2" role="group" aria-label="Second group">
-                      <button type="button" class="btn btn-primary">React</button>
-                    </div>
-                  </div>
+                <span class="badge text-bg-warning">JavaScript</span>
+                <span class="badge text-bg-primary">React</span>
               <h5 class="card-title">Bill Gates</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa officiis eum illum exercitationem maxime, eos nihil quam nesciunt molestiae asperiores cupiditate perferendis, explicabo quas error! Tempore odio ipsa libero!</p>
             </div>
@@ -110,24 +104,20 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="Ada.jpg" class="card-img-top" alt="60px">
+            <img src="Ada.jpg" class="card-img-top">
             <div class="card-body">
-                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                    <div class="btn-group me-2" role="group" aria-label="First group">
-                      <button type="button" class="btn btn-warning">JavaScript</button>
-                    </div>
-                    <div class="btn-group me-2" role="group" aria-label="Second group">
-                      <button type="button" class="btn btn-primary">React</button>
-                    </div>
-                  </div>
+              <span class="badge text-bg-secondary">Negocios</span>
+              <span class="badge text-bg-danger">Startups</span>
               <h5 class="card-title">Ada Lovelace</h5>
               <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus debitis corrupti autem ratione nulla quam aperiam! Odio reiciendis inventore velit praesentium mollitia repudiandae eius suscipit nisi, cupiditate facere, corrupti porro?</p>
             </div>
           </div>
         </div>
       </div>
+    
+      
       <!--Publicidad Bs As-->
-      <div class="card mb-4 text-bg-dark" style="max-height: 1200px;">
+      <div class="card mb-4 text-bg-dark mt-3" style="max-height: 1200px;">
         <div class="row g-0">
           <div class="col-md-8">
             <img src="Buenos-aires.jpg" class="img-fluid rounded-start" alt="1200px">
@@ -148,28 +138,45 @@
         Conviertete en
         </p>
         <h3>Orador</h3>
+        <p>
+          Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de qué quieres hablar!
+          </p>
 
       </div>
 
     <div class="row justify-content-center"> <!--Centrar Columnas-->
 
       <div class="col-md-4">
-        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Carlos">
+        <label for="exampleFormControlInput1" class="form-label"></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
       </div>
       <div class="col-md-4">
-        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Perez">
+        <label for="exampleFormControlInput1" class="form-label"></label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
       </div>
-    
-
       <div class="col-md-8">
-        <label for="exampleFormControlTextarea1" class="form-label">Sobre qué deseas hablar?</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleFormControlTextarea1" class="form-label"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué deseas hablar?"></textarea>
       </div>
-
+      <div class="col-md-8">
+        <p>Recuerda incluir un título para tu charla</p>
+        </div>
+      <div class="col-md-8">
+      <button type="button" class="btn btn-success col-md-12">Enviar</button>
+      </div>
     </div>
 
+    <footer class="d-flex flex-wrap justify-content-around align-items-center py-5 my-1">  
+      <ul class="nav col-md-10 justify-content-around">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Preguntas Frecuentes</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contáctanos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Prensa</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Conferencias</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Términos y Condiciones</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Privacidad</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Estudiantes</a></li>
+      </ul>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
