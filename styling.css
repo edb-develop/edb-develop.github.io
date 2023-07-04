@@ -2,6 +2,33 @@
     text-align: center;
 }
 
+#compratickets {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#tipoticket {
+    padding: 0.5rem;
+}
+
+
+#estudiante {
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+#trainee {
+    border-radius: 10px;
+    border: 2px solid rgb(24, 142, 182);
+}
+
+#junior{
+    border-radius: 10px;
+    border: 2px solid rgb(215, 162, 28);
+}
+
+
 footer {
     background-color: rgb(56, 72, 92);
 }
